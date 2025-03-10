@@ -9,9 +9,9 @@ Ahora, en vez de usar mongodb, se usa mongoose.
 Se consulta a diversas páginas web para conocer un poco más sobre mongoose y su aplicamiento en código. A continuacion las fuentes:
 
 
-[text](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
+[freecodecamp](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 
-[text](https://code.tutsplus.com/es/an-introduction-to-mongoose-for-mongodb-and-nodejs--cms-29527a)
+[texcode Tutsplust](https://code.tutsplus.com/es/an-introduction-to-mongoose-for-mongodb-and-nodejs--cms-29527a)
 
 ##Imágenes Thunder Client
 Conectar con el servidor
