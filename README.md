@@ -1,10 +1,10 @@
-#API básica en Node.js con Express y MongoDB
+# API básica en Node.js con Express y MongoDB
 
-##Funcionamiento:
+## Funcionamiento:
 
 El funcionamiento de este trabajo se comporta de la misma forma que la anterior API, sin embargo, se implementa el método de embedding y referecing para mejorar la estrucuta y eficientar las consultas de la API. De pricipio hay que crear un .env para agregar la dirección URL de la base de datos (DB)La estructura se encuentra con el config que conecta al servidor local mongoDB, los modelos que poseen la estructura del documento de dica colección, los controladores que contienen las funciones del CRUD y se exporta para que el enrutador proporcione rutas que utilizará el servidor que permitirá usar el API. Para agregar documentos se realiza por medio de Thunder Client.
 
-##Tecnologías empleadas:
+## Tecnologías empleadas:
 
 Se utiliza Node.js es un entorno de ejecución de JavaScript.
 Ahora, en vez de usar mongodb, se usa mongoose.
@@ -15,7 +15,7 @@ Se consulta a diversas páginas web para conocer un poco más sobre mongoose y s
 
 [texcode Tutsplust](https://code.tutsplus.com/es/an-introduction-to-mongoose-for-mongodb-and-nodejs--cms-29527a)
 
-##Imágenes Thunder Client:
+## Imágenes Thunder Client:
 
 Crear un usuario.
 ![createUserWithoutGroup](/assets/createUserWithoutGroup.png)
@@ -57,7 +57,7 @@ Visualización en Compass de eliminar un evento.
 ![updateEventCompass](/assets/updateEventCompass.png)
 
 
-##Manual de instalación:
+## Manual de instalación:
 
 ```npm  init —yes```  Para inicializar. El —yes es para que todo lo que pregunte al ejecutarlo, automáticamente seleccione “yes”.
 
@@ -65,7 +65,7 @@ Visualización en Compass de eliminar un evento.
 
 ```npm run dev``` Para conectarse al servidor, teniendo previa configuración en los scripts.
 
-###Justificación de modelado:
+## Justificación de modelado:
 
 La estructura de la API de red social fue definida por el docente, donde se tomaron en cuenta los usuarios, grupos y eventos. En cada modelo se definieron puntos principales y se les asignó un alias para poder referenciarlos entre otros esquemas: 
 El usuario posee nombre, correo, contraseña y un grupo al que pertenece, el cual tiene la capacidad de pertenecer a más de uno por medio de una referencia ObjectID. 

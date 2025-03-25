@@ -1,4 +1,4 @@
-require("dotenv").config(); //Carga la configuración de dontenv. Una sola instancia para tod el proyecto.
+require("dotenv").config(); //Carga la configuración de dontenv. Una sola instancia para todo el proyecto.
 const mongoose = require("mongoose");
 
 async function ConnectDB() {
